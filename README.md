@@ -13,7 +13,7 @@ A library used to figure out the email provider based on an email address
 To build this project, you must have the latest [.NET 5 SDK](https://dotnet.microsoft.com/download) installed.
 Just clone the repository and open the solution in Visual Studio 2019.
 
-To run it, open a command line windows, navigate to `/samples/EmailProviderResolver` and run `emailproviderresolver <email>` from the appropriate runtime folder.
+To run a prebuilt sample on windows, open comand prompt, navigate to `/samples/EmailProviderResolver` and execute via command `emailproviderresolver <email>` from the appropriate runtime folder.
 
 EmailProviderResolver is targeting .NET5 and will run on any supported platform as long as the .NET5 SDK or runtime is installed.
 
