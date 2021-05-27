@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailProvider.Library", "src\EmailProviderResolver\EmailProvider.Library.csproj", "{EAC04D1C-9F2D-4EEC-BBCF-F55F879EA531}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8B7C6EA7-E2C6-4347-AF63-F2ED59706AB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A3D1ECF6-ECAB-4AB6-8A70-D744731BD451}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailProvider.Library.Tests", "tests\EmailProvider.Library.Tests\EmailProvider.Library.Tests.csproj", "{D65A8512-60FC-4864-8FAB-07A3E46CCAE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailProvider.UI", "src\EmailProvider.UI\EmailProvider.UI.csproj", "{C3CBF176-8534-43CF-862C-B1FD483506A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{9DF1DE26-A544-4B64-B2C3-5D9EB9250447}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailProviderResolver", "EmailProviderResolver", "{BB0654F2-EAB3-432C-992B-7939858ED6C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "win-x64", "win-x64", "{27ABA89D-0B78-4879-BB2C-CFB53EFBEFEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "win-x86", "win-x86", "{22BFB8FF-30C1-44AD-BCAB-6A64D7413C90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAC04D1C-9F2D-4EEC-BBCF-F55F879EA531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC04D1C-9F2D-4EEC-BBCF-F55F879EA531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC04D1C-9F2D-4EEC-BBCF-F55F879EA531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC04D1C-9F2D-4EEC-BBCF-F55F879EA531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D65A8512-60FC-4864-8FAB-07A3E46CCAE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65A8512-60FC-4864-8FAB-07A3E46CCAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65A8512-60FC-4864-8FAB-07A3E46CCAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65A8512-60FC-4864-8FAB-07A3E46CCAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3CBF176-8534-43CF-862C-B1FD483506A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3CBF176-8534-43CF-862C-B1FD483506A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3CBF176-8534-43CF-862C-B1FD483506A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3CBF176-8534-43CF-862C-B1FD483506A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EAC04D1C-9F2D-4EEC-BBCF-F55F879EA531} = {8B7C6EA7-E2C6-4347-AF63-F2ED59706AB1}
+		{D65A8512-60FC-4864-8FAB-07A3E46CCAE5} = {A3D1ECF6-ECAB-4AB6-8A70-D744731BD451}
+		{C3CBF176-8534-43CF-862C-B1FD483506A9} = {8B7C6EA7-E2C6-4347-AF63-F2ED59706AB1}
+		{BB0654F2-EAB3-432C-992B-7939858ED6C5} = {9DF1DE26-A544-4B64-B2C3-5D9EB9250447}
+		{27ABA89D-0B78-4879-BB2C-CFB53EFBEFEE} = {BB0654F2-EAB3-432C-992B-7939858ED6C5}
+		{22BFB8FF-30C1-44AD-BCAB-6A64D7413C90} = {BB0654F2-EAB3-432C-992B-7939858ED6C5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CADF40C-A854-40D4-BD1C-284AA79D2C74}
+	EndGlobalSection
+EndGlobal
