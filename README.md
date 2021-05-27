@@ -1,13 +1,23 @@
 # EmailProviderResolver 
-MiniDig is an example implementation of a DNS lookup command line utility which uses the DnsClient library.
-It is supposed to work similar to the well-known `dig` command line tool on Linux, with a lot fewer options of course.
+A library used to figure out the email provider based on an email address
+
+## Features
+
+### General
+
+* It can detect if the email provider is Google, Microsoft or other
+* It uses [DnsClient.NET](https://github.com/MichaCo/DnsClient.NET) to query for DNS mx records 
+* Dns queries use a caching mechanism to reduce latency in case 
 
 ## How to Build/Run it
-To run it, open a command line windows, or bash, navigate to `/samples/EmailProviderResolver` and run `emailproviderresolver <email>`.
+To build this project, you must have the latest [.NET 5 SDK](https://dotnet.microsoft.com/download) installed.
+Just clone the repository and open the solution in Visual Studio 2019.
 
-EmailProviderResolver  is targeting .NET5 and will run on any supported platform as long as the .NET5 SDK or runtime is installed.
+To run it, open a command line windows, navigate to `/samples/EmailProviderResolver` and run `emailproviderresolver <email>` from the appropriate runtime folder.
+
+EmailProviderResolver is targeting .NET5 and will run on any supported platform as long as the .NET5 SDK or runtime is installed.
 
 ## Examples
-emailproviderresolver marko.nose@gmail.com
+`emailproviderresolver marko.nose@gmail.com`
 
-Example output: Google
+Example output: `Google`
